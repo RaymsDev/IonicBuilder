@@ -1,5 +1,7 @@
 FROM ubuntu:18.04 as android
 
+LABEL author="rayms.dev@gmail.com" 
+
 RUN apt-get update
 
 # Install some dependencies
